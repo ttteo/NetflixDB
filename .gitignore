@@ -1,0 +1,33 @@
+# File e cartelle da non tracciare
+
+# PDF relazione (documento sorgente)
+*.pdf
+
+# File compressi
+*.zip
+
+# Immagini UML e diagrammi
+*.png
+*.drawio
+
+# Cartelle di sviluppo e temporanee
+guida/
+relazione/
+uml draw/
+
+# File eseguibili compilati
+execute_query
+*.o
+*.exe
+*.out
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File temporanei editor
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
