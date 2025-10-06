@@ -2,7 +2,6 @@
 
 Database relazionale progettato per gestire le informazioni di una piattaforma di streaming video (tipo Netflix), realizzato per il corso di Basi di Dati presso l'Università degli Studi di Padova.
 
-**Autori**: Matteo Arcandi, Marco Rizzato
 
 ## Descrizione del Progetto
 
