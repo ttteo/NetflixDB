@@ -4,7 +4,7 @@
 #include "dependencies/include/libpq-fe.h"
 
 PGconn* connectDB() {
-    const char *conninfo = "dbname=NetflixDB user=postgres password=123456 host=localhost port=5432";
+    const char *conninfo = "dbname=NetflixDB user=youruser password=yourpassword host=localhost port=yourport";
     PGconn *conn = PQconnectdb(conninfo);
     if (PQstatus(conn) != CONNECTION_OK) {
         fprintf(stderr, "Errore connessione DB: %s\n", PQerrorMessage(conn));
